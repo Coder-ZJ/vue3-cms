@@ -21,9 +21,6 @@ import { reactive } from "vue";
 const phoneForm = reactive({ phone: "", code: "" });
 
 function onClickGetCodeBtn() {
-  if (!phoneForm.phone.length) {
-    ElMessage.warning("请输入手机号");
-  }
   console.log(phoneForm.phone);
   console.log(phoneForm.code);
 }

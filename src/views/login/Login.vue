@@ -26,7 +26,7 @@
       </div>
       <div class="account-control">
         <el-checkbox label="记住密码" size="large" @change="checkboxChange"></el-checkbox>
-        <el-link type="primary" href="https://element.eleme.io" target="_blank"
+        <el-link type="primary" href="https://www.baidu.com" target="_blank"
           >忘记密码</el-link
         >
       </div>

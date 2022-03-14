@@ -12,7 +12,7 @@
 </template>
 
 <script setup>
-import { ref, reactive } from "vue";
+import { reactive } from "vue";
 const userForm = reactive({ userName: "", password: "" });
 const rules = reactive({
   userName: [{ required: true, message: "请输入账号", trigger: "blur" }],
